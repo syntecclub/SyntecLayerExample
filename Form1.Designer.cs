@@ -27,176 +27,178 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
-			this.button5 = new System.Windows.Forms.Button();
-			this.button6 = new System.Windows.Forms.Button();
-			this.button7 = new System.Windows.Forms.Button();
-			this.button8 = new System.Windows.Forms.Button();
-			this.button9 = new System.Windows.Forms.Button();
-			this.button10 = new System.Windows.Forms.Button();
-			this.button11 = new System.Windows.Forms.Button();
-			this.button12 = new System.Windows.Forms.Button();
-			this.button13 = new System.Windows.Forms.Button();
-			this.button14 = new System.Windows.Forms.Button();
+			this.m_BtnConnect = new System.Windows.Forms.Button();
+			this.m_BtnBackColor1 = new System.Windows.Forms.Button();
+			this.m_BtnText1 = new System.Windows.Forms.Button();
+			this.m_BtnTextColor1 = new System.Windows.Forms.Button();
+			this.m_BtnSize1 = new System.Windows.Forms.Button();
+			this.m_BtnLocation1 = new System.Windows.Forms.Button();
+			this.m_BtnRemove1 = new System.Windows.Forms.Button();
+			this.m_BtnRemoveAll = new System.Windows.Forms.Button();
+			this.m_BtnRemove2 = new System.Windows.Forms.Button();
+			this.m_BtnAdd1 = new System.Windows.Forms.Button();
+			this.m_BtnAdd2 = new System.Windows.Forms.Button();
+			this.m_BtnBackColor2 = new System.Windows.Forms.Button();
+			this.m_BtnText2 = new System.Windows.Forms.Button();
+			this.m_BtnGetSize = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
-			this.button15 = new System.Windows.Forms.Button();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.button16 = new System.Windows.Forms.Button();
-			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.m_tboxWidth = new System.Windows.Forms.TextBox();
+			this.m_tboxHeight = new System.Windows.Forms.TextBox();
+			this.m_BtnGetStatus = new System.Windows.Forms.Button();
+			this.m_tboxStatus = new System.Windows.Forms.TextBox();
+			this.m_BtnDisconnect = new System.Windows.Forms.Button();
+			this.m_tboxIPAddress = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
-			this.button17 = new System.Windows.Forms.Button();
-			this.button18 = new System.Windows.Forms.Button();
-			this.button19 = new System.Windows.Forms.Button();
+			this.m_BtnTextColor2 = new System.Windows.Forms.Button();
+			this.m_BtnSize2 = new System.Windows.Forms.Button();
+			this.m_BtnLocation2 = new System.Windows.Forms.Button();
+			this.m_BtnGetLatError = new System.Windows.Forms.Button();
+			this.m_tboxLastError = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
-			// button1
+			// m_BtnConnect
 			// 
-			this.button1.Location = new System.Drawing.Point( 236, 26 );
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size( 107, 23 );
-			this.button1.TabIndex = 0;
-			this.button1.Text = "Connect";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler( this.button1_Click );
+			this.m_BtnConnect.Location = new System.Drawing.Point( 236, 26 );
+			this.m_BtnConnect.Name = "m_BtnConnect";
+			this.m_BtnConnect.Size = new System.Drawing.Size( 107, 23 );
+			this.m_BtnConnect.TabIndex = 0;
+			this.m_BtnConnect.Text = "Connect";
+			this.m_BtnConnect.UseVisualStyleBackColor = true;
+			this.m_BtnConnect.Click += new System.EventHandler( this.m_BtnConnect_Click );
 			// 
-			// button2
+			// m_BtnBackColor1
 			// 
-			this.button2.Location = new System.Drawing.Point( 51, 117 );
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size( 142, 23 );
-			this.button2.TabIndex = 1;
-			this.button2.Text = "ChangeBackColor 1";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler( this.button2_Click );
+			this.m_BtnBackColor1.Location = new System.Drawing.Point( 51, 117 );
+			this.m_BtnBackColor1.Name = "m_BtnBackColor1";
+			this.m_BtnBackColor1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnBackColor1.TabIndex = 1;
+			this.m_BtnBackColor1.Text = "ChangeBackColor 1";
+			this.m_BtnBackColor1.UseVisualStyleBackColor = true;
+			this.m_BtnBackColor1.Click += new System.EventHandler( this.m_BtnBackColor1_Click );
 			// 
-			// button3
+			// m_BtnText1
 			// 
-			this.button3.Location = new System.Drawing.Point( 51, 160 );
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size( 142, 23 );
-			this.button3.TabIndex = 2;
-			this.button3.Text = "ChangeText 1";
-			this.button3.UseVisualStyleBackColor = true;
-			this.button3.Click += new System.EventHandler( this.button3_Click );
+			this.m_BtnText1.Location = new System.Drawing.Point( 51, 160 );
+			this.m_BtnText1.Name = "m_BtnText1";
+			this.m_BtnText1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnText1.TabIndex = 2;
+			this.m_BtnText1.Text = "ChangeText 1";
+			this.m_BtnText1.UseVisualStyleBackColor = true;
+			this.m_BtnText1.Click += new System.EventHandler( this.m_BtnText1_Click );
 			// 
-			// button4
+			// m_BtnTextColor1
 			// 
-			this.button4.Location = new System.Drawing.Point( 51, 202 );
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size( 142, 23 );
-			this.button4.TabIndex = 3;
-			this.button4.Text = "ChangeTextColor 1";
-			this.button4.UseVisualStyleBackColor = true;
-			this.button4.Click += new System.EventHandler( this.button4_Click );
+			this.m_BtnTextColor1.Location = new System.Drawing.Point( 51, 202 );
+			this.m_BtnTextColor1.Name = "m_BtnTextColor1";
+			this.m_BtnTextColor1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnTextColor1.TabIndex = 3;
+			this.m_BtnTextColor1.Text = "ChangeTextColor 1";
+			this.m_BtnTextColor1.UseVisualStyleBackColor = true;
+			this.m_BtnTextColor1.Click += new System.EventHandler( this.m_BtnTextColor1_Click );
 			// 
-			// button5
+			// m_BtnSize1
 			// 
-			this.button5.Location = new System.Drawing.Point( 51, 241 );
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size( 142, 23 );
-			this.button5.TabIndex = 4;
-			this.button5.Text = "ChangeSize 1";
-			this.button5.UseVisualStyleBackColor = true;
-			this.button5.Click += new System.EventHandler( this.button5_Click );
+			this.m_BtnSize1.Location = new System.Drawing.Point( 51, 241 );
+			this.m_BtnSize1.Name = "m_BtnSize1";
+			this.m_BtnSize1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnSize1.TabIndex = 4;
+			this.m_BtnSize1.Text = "ChangeSize 1";
+			this.m_BtnSize1.UseVisualStyleBackColor = true;
+			this.m_BtnSize1.Click += new System.EventHandler( this.m_BtnSize1_Click );
 			// 
-			// button6
+			// m_BtnLocation1
 			// 
-			this.button6.Location = new System.Drawing.Point( 51, 284 );
-			this.button6.Name = "button6";
-			this.button6.Size = new System.Drawing.Size( 142, 23 );
-			this.button6.TabIndex = 5;
-			this.button6.Text = "ChangeLocation 1";
-			this.button6.UseVisualStyleBackColor = true;
-			this.button6.Click += new System.EventHandler( this.button6_Click );
+			this.m_BtnLocation1.Location = new System.Drawing.Point( 51, 284 );
+			this.m_BtnLocation1.Name = "m_BtnLocation1";
+			this.m_BtnLocation1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnLocation1.TabIndex = 5;
+			this.m_BtnLocation1.Text = "ChangeLocation 1";
+			this.m_BtnLocation1.UseVisualStyleBackColor = true;
+			this.m_BtnLocation1.Click += new System.EventHandler( this.m_BtnLocation1_Click );
 			// 
-			// button7
+			// m_BtnRemove1
 			// 
-			this.button7.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
-			this.button7.Location = new System.Drawing.Point( 51, 331 );
-			this.button7.Name = "button7";
-			this.button7.Size = new System.Drawing.Size( 142, 23 );
-			this.button7.TabIndex = 6;
-			this.button7.Text = "Remove 1";
-			this.button7.UseVisualStyleBackColor = false;
-			this.button7.Click += new System.EventHandler( this.button7_Click );
+			this.m_BtnRemove1.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
+			this.m_BtnRemove1.Location = new System.Drawing.Point( 51, 331 );
+			this.m_BtnRemove1.Name = "m_BtnRemove1";
+			this.m_BtnRemove1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnRemove1.TabIndex = 6;
+			this.m_BtnRemove1.Text = "Remove 1";
+			this.m_BtnRemove1.UseVisualStyleBackColor = false;
+			this.m_BtnRemove1.Click += new System.EventHandler( this.m_BtnRemove1_Click );
 			// 
-			// button8
+			// m_BtnRemoveAll
 			// 
-			this.button8.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
-			this.button8.Location = new System.Drawing.Point( 143, 379 );
-			this.button8.Name = "button8";
-			this.button8.Size = new System.Drawing.Size( 142, 23 );
-			this.button8.TabIndex = 7;
-			this.button8.Text = "Remove All";
-			this.button8.UseVisualStyleBackColor = false;
-			this.button8.Click += new System.EventHandler( this.button8_Click );
+			this.m_BtnRemoveAll.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
+			this.m_BtnRemoveAll.Location = new System.Drawing.Point( 143, 379 );
+			this.m_BtnRemoveAll.Name = "m_BtnRemoveAll";
+			this.m_BtnRemoveAll.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnRemoveAll.TabIndex = 7;
+			this.m_BtnRemoveAll.Text = "Remove All";
+			this.m_BtnRemoveAll.UseVisualStyleBackColor = false;
+			this.m_BtnRemoveAll.Click += new System.EventHandler( this.m_BtnRemoveAll_Click );
 			// 
-			// button9
+			// m_BtnRemove2
 			// 
-			this.button9.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
-			this.button9.Location = new System.Drawing.Point( 213, 331 );
-			this.button9.Name = "button9";
-			this.button9.Size = new System.Drawing.Size( 142, 23 );
-			this.button9.TabIndex = 8;
-			this.button9.Text = "Remove 2";
-			this.button9.UseVisualStyleBackColor = false;
-			this.button9.Click += new System.EventHandler( this.button9_Click );
+			this.m_BtnRemove2.BackColor = System.Drawing.Color.FromArgb( ( (int)( ( (byte)( 255 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ), ( (int)( ( (byte)( 128 ) ) ) ) );
+			this.m_BtnRemove2.Location = new System.Drawing.Point( 213, 331 );
+			this.m_BtnRemove2.Name = "m_BtnRemove2";
+			this.m_BtnRemove2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnRemove2.TabIndex = 8;
+			this.m_BtnRemove2.Text = "Remove 2";
+			this.m_BtnRemove2.UseVisualStyleBackColor = false;
+			this.m_BtnRemove2.Click += new System.EventHandler( this.m_BtnRemove2_Click );
 			// 
-			// button10
+			// m_BtnAdd1
 			// 
-			this.button10.Location = new System.Drawing.Point( 51, 76 );
-			this.button10.Name = "button10";
-			this.button10.Size = new System.Drawing.Size( 142, 23 );
-			this.button10.TabIndex = 9;
-			this.button10.Text = "Add 1";
-			this.button10.UseVisualStyleBackColor = true;
-			this.button10.Click += new System.EventHandler( this.button10_Click );
+			this.m_BtnAdd1.Location = new System.Drawing.Point( 51, 76 );
+			this.m_BtnAdd1.Name = "m_BtnAdd1";
+			this.m_BtnAdd1.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnAdd1.TabIndex = 9;
+			this.m_BtnAdd1.Text = "Add 1";
+			this.m_BtnAdd1.UseVisualStyleBackColor = true;
+			this.m_BtnAdd1.Click += new System.EventHandler( this.m_BtnAdd1_Click );
 			// 
-			// button11
+			// m_BtnAdd2
 			// 
-			this.button11.Location = new System.Drawing.Point( 213, 76 );
-			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size( 142, 23 );
-			this.button11.TabIndex = 10;
-			this.button11.Text = "Add 2";
-			this.button11.UseVisualStyleBackColor = true;
-			this.button11.Click += new System.EventHandler( this.button11_Click );
+			this.m_BtnAdd2.Location = new System.Drawing.Point( 213, 76 );
+			this.m_BtnAdd2.Name = "m_BtnAdd2";
+			this.m_BtnAdd2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnAdd2.TabIndex = 10;
+			this.m_BtnAdd2.Text = "Add 2";
+			this.m_BtnAdd2.UseVisualStyleBackColor = true;
+			this.m_BtnAdd2.Click += new System.EventHandler( this.m_BtnAdd2_Click );
 			// 
-			// button12
+			// m_BtnBackColor2
 			// 
-			this.button12.Location = new System.Drawing.Point( 213, 117 );
-			this.button12.Name = "button12";
-			this.button12.Size = new System.Drawing.Size( 142, 23 );
-			this.button12.TabIndex = 11;
-			this.button12.Text = "ChangeBackColor 2";
-			this.button12.UseVisualStyleBackColor = true;
-			this.button12.Click += new System.EventHandler( this.button12_Click );
+			this.m_BtnBackColor2.Location = new System.Drawing.Point( 213, 117 );
+			this.m_BtnBackColor2.Name = "m_BtnBackColor2";
+			this.m_BtnBackColor2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnBackColor2.TabIndex = 11;
+			this.m_BtnBackColor2.Text = "ChangeBackColor 2";
+			this.m_BtnBackColor2.UseVisualStyleBackColor = true;
+			this.m_BtnBackColor2.Click += new System.EventHandler( this.m_BtnBackColor2_Click );
 			// 
-			// button13
+			// m_BtnText2
 			// 
-			this.button13.Location = new System.Drawing.Point( 213, 160 );
-			this.button13.Name = "button13";
-			this.button13.Size = new System.Drawing.Size( 142, 23 );
-			this.button13.TabIndex = 12;
-			this.button13.Text = "ChangeText 2";
-			this.button13.UseVisualStyleBackColor = true;
-			this.button13.Click += new System.EventHandler( this.button13_Click );
+			this.m_BtnText2.Location = new System.Drawing.Point( 213, 160 );
+			this.m_BtnText2.Name = "m_BtnText2";
+			this.m_BtnText2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnText2.TabIndex = 12;
+			this.m_BtnText2.Text = "ChangeText 2";
+			this.m_BtnText2.UseVisualStyleBackColor = true;
+			this.m_BtnText2.Click += new System.EventHandler( this.m_BtnText2_Click );
 			// 
-			// button14
+			// m_BtnGetSize
 			// 
-			this.button14.Location = new System.Drawing.Point( 431, 76 );
-			this.button14.Name = "button14";
-			this.button14.Size = new System.Drawing.Size( 142, 23 );
-			this.button14.TabIndex = 13;
-			this.button14.Text = "Get Layer Size";
-			this.button14.UseVisualStyleBackColor = true;
-			this.button14.Click += new System.EventHandler( this.button14_Click );
+			this.m_BtnGetSize.Location = new System.Drawing.Point( 431, 76 );
+			this.m_BtnGetSize.Name = "m_BtnGetSize";
+			this.m_BtnGetSize.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnGetSize.TabIndex = 13;
+			this.m_BtnGetSize.Text = "Get Layer Size";
+			this.m_BtnGetSize.UseVisualStyleBackColor = true;
+			this.m_BtnGetSize.Click += new System.EventHandler( this.m_BtnGetSize_Click );
 			// 
 			// label1
 			// 
@@ -216,57 +218,57 @@
 			this.label2.TabIndex = 15;
 			this.label2.Text = "H";
 			// 
-			// textBox1
+			// m_tboxWidth
 			// 
-			this.textBox1.Location = new System.Drawing.Point( 453, 114 );
-			this.textBox1.Name = "textBox1";
-			this.textBox1.ReadOnly = true;
-			this.textBox1.Size = new System.Drawing.Size( 100, 22 );
-			this.textBox1.TabIndex = 16;
+			this.m_tboxWidth.Location = new System.Drawing.Point( 453, 114 );
+			this.m_tboxWidth.Name = "m_tboxWidth";
+			this.m_tboxWidth.ReadOnly = true;
+			this.m_tboxWidth.Size = new System.Drawing.Size( 100, 22 );
+			this.m_tboxWidth.TabIndex = 16;
 			// 
-			// textBox2
+			// m_tboxHeight
 			// 
-			this.textBox2.Location = new System.Drawing.Point( 453, 142 );
-			this.textBox2.Name = "textBox2";
-			this.textBox2.ReadOnly = true;
-			this.textBox2.Size = new System.Drawing.Size( 100, 22 );
-			this.textBox2.TabIndex = 17;
+			this.m_tboxHeight.Location = new System.Drawing.Point( 453, 142 );
+			this.m_tboxHeight.Name = "m_tboxHeight";
+			this.m_tboxHeight.ReadOnly = true;
+			this.m_tboxHeight.Size = new System.Drawing.Size( 100, 22 );
+			this.m_tboxHeight.TabIndex = 17;
 			// 
-			// button15
+			// m_BtnGetStatus
 			// 
-			this.button15.Location = new System.Drawing.Point( 433, 202 );
-			this.button15.Name = "button15";
-			this.button15.Size = new System.Drawing.Size( 142, 23 );
-			this.button15.TabIndex = 18;
-			this.button15.Text = "Get Status";
-			this.button15.UseVisualStyleBackColor = true;
-			this.button15.Click += new System.EventHandler( this.button15_Click );
+			this.m_BtnGetStatus.Location = new System.Drawing.Point( 433, 202 );
+			this.m_BtnGetStatus.Name = "m_BtnGetStatus";
+			this.m_BtnGetStatus.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnGetStatus.TabIndex = 18;
+			this.m_BtnGetStatus.Text = "Get Status";
+			this.m_BtnGetStatus.UseVisualStyleBackColor = true;
+			this.m_BtnGetStatus.Click += new System.EventHandler( this.m_BtnGetStatus_Click );
 			// 
-			// textBox3
+			// m_tboxStatus
 			// 
-			this.textBox3.Location = new System.Drawing.Point( 431, 241 );
-			this.textBox3.Name = "textBox3";
-			this.textBox3.ReadOnly = true;
-			this.textBox3.Size = new System.Drawing.Size( 140, 22 );
-			this.textBox3.TabIndex = 19;
+			this.m_tboxStatus.Location = new System.Drawing.Point( 431, 241 );
+			this.m_tboxStatus.Name = "m_tboxStatus";
+			this.m_tboxStatus.ReadOnly = true;
+			this.m_tboxStatus.Size = new System.Drawing.Size( 140, 22 );
+			this.m_tboxStatus.TabIndex = 19;
 			// 
-			// button16
+			// m_BtnDisconnect
 			// 
-			this.button16.BackColor = System.Drawing.Color.Red;
-			this.button16.Location = new System.Drawing.Point( 429, 379 );
-			this.button16.Name = "button16";
-			this.button16.Size = new System.Drawing.Size( 142, 23 );
-			this.button16.TabIndex = 20;
-			this.button16.Text = "Disconnect";
-			this.button16.UseVisualStyleBackColor = false;
-			this.button16.Click += new System.EventHandler( this.button16_Click );
+			this.m_BtnDisconnect.BackColor = System.Drawing.Color.Red;
+			this.m_BtnDisconnect.Location = new System.Drawing.Point( 429, 379 );
+			this.m_BtnDisconnect.Name = "m_BtnDisconnect";
+			this.m_BtnDisconnect.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnDisconnect.TabIndex = 20;
+			this.m_BtnDisconnect.Text = "Disconnect";
+			this.m_BtnDisconnect.UseVisualStyleBackColor = false;
+			this.m_BtnDisconnect.Click += new System.EventHandler( this.m_BtnDisconnect_Click );
 			// 
-			// textBox4
+			// m_tboxIPAddress
 			// 
-			this.textBox4.Location = new System.Drawing.Point( 51, 26 );
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size( 168, 22 );
-			this.textBox4.TabIndex = 21;
+			this.m_tboxIPAddress.Location = new System.Drawing.Point( 51, 26 );
+			this.m_tboxIPAddress.Name = "m_tboxIPAddress";
+			this.m_tboxIPAddress.Size = new System.Drawing.Size( 168, 22 );
+			this.m_tboxIPAddress.TabIndex = 21;
 			// 
 			// label3
 			// 
@@ -277,69 +279,89 @@
 			this.label3.TabIndex = 22;
 			this.label3.Text = "IP address";
 			// 
-			// button17
+			// m_BtnTextColor2
 			// 
-			this.button17.Location = new System.Drawing.Point( 213, 202 );
-			this.button17.Name = "button17";
-			this.button17.Size = new System.Drawing.Size( 142, 23 );
-			this.button17.TabIndex = 23;
-			this.button17.Text = "ChangeTextColor 2";
-			this.button17.UseVisualStyleBackColor = true;
-			this.button17.Click += new System.EventHandler( this.button17_Click );
+			this.m_BtnTextColor2.Location = new System.Drawing.Point( 213, 202 );
+			this.m_BtnTextColor2.Name = "m_BtnTextColor2";
+			this.m_BtnTextColor2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnTextColor2.TabIndex = 23;
+			this.m_BtnTextColor2.Text = "ChangeTextColor 2";
+			this.m_BtnTextColor2.UseVisualStyleBackColor = true;
+			this.m_BtnTextColor2.Click += new System.EventHandler( this.m_BtnTextColor2_Click );
 			// 
-			// button18
+			// m_BtnSize2
 			// 
-			this.button18.Location = new System.Drawing.Point( 213, 241 );
-			this.button18.Name = "button18";
-			this.button18.Size = new System.Drawing.Size( 142, 23 );
-			this.button18.TabIndex = 24;
-			this.button18.Text = "ChangeSize 2";
-			this.button18.UseVisualStyleBackColor = true;
-			this.button18.Click += new System.EventHandler( this.button18_Click );
+			this.m_BtnSize2.Location = new System.Drawing.Point( 213, 241 );
+			this.m_BtnSize2.Name = "m_BtnSize2";
+			this.m_BtnSize2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnSize2.TabIndex = 24;
+			this.m_BtnSize2.Text = "ChangeSize 2";
+			this.m_BtnSize2.UseVisualStyleBackColor = true;
+			this.m_BtnSize2.Click += new System.EventHandler( this.m_BtnSize2_Click );
 			// 
-			// button19
+			// m_BtnLocation2
 			// 
-			this.button19.Location = new System.Drawing.Point( 213, 284 );
-			this.button19.Name = "button19";
-			this.button19.Size = new System.Drawing.Size( 142, 23 );
-			this.button19.TabIndex = 25;
-			this.button19.Text = "ChangeLocation 2";
-			this.button19.UseVisualStyleBackColor = true;
-			this.button19.Click += new System.EventHandler( this.button19_Click );
+			this.m_BtnLocation2.Location = new System.Drawing.Point( 213, 284 );
+			this.m_BtnLocation2.Name = "m_BtnLocation2";
+			this.m_BtnLocation2.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnLocation2.TabIndex = 25;
+			this.m_BtnLocation2.Text = "ChangeLocation 2";
+			this.m_BtnLocation2.UseVisualStyleBackColor = true;
+			this.m_BtnLocation2.Click += new System.EventHandler( this.m_BtnLocation2_Click );
+			// 
+			// m_BtnGetLatError
+			// 
+			this.m_BtnGetLatError.Location = new System.Drawing.Point( 429, 302 );
+			this.m_BtnGetLatError.Name = "m_BtnGetLatError";
+			this.m_BtnGetLatError.Size = new System.Drawing.Size( 142, 23 );
+			this.m_BtnGetLatError.TabIndex = 26;
+			this.m_BtnGetLatError.Text = "Get Last Error";
+			this.m_BtnGetLatError.UseVisualStyleBackColor = true;
+			this.m_BtnGetLatError.Click += new System.EventHandler( this.m_BtnGetLatError_Click );
+			// 
+			// m_tboxLastError
+			// 
+			this.m_tboxLastError.Location = new System.Drawing.Point( 429, 331 );
+			this.m_tboxLastError.Name = "m_tboxLastError";
+			this.m_tboxLastError.ReadOnly = true;
+			this.m_tboxLastError.Size = new System.Drawing.Size( 140, 22 );
+			this.m_tboxLastError.TabIndex = 27;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF( 6F, 12F );
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size( 628, 417 );
-			this.Controls.Add( this.button19 );
-			this.Controls.Add( this.button18 );
-			this.Controls.Add( this.button17 );
+			this.Controls.Add( this.m_tboxLastError );
+			this.Controls.Add( this.m_BtnGetLatError );
+			this.Controls.Add( this.m_BtnLocation2 );
+			this.Controls.Add( this.m_BtnSize2 );
+			this.Controls.Add( this.m_BtnTextColor2 );
 			this.Controls.Add( this.label3 );
-			this.Controls.Add( this.textBox4 );
-			this.Controls.Add( this.button16 );
-			this.Controls.Add( this.textBox3 );
-			this.Controls.Add( this.button15 );
-			this.Controls.Add( this.textBox2 );
-			this.Controls.Add( this.textBox1 );
+			this.Controls.Add( this.m_tboxIPAddress );
+			this.Controls.Add( this.m_BtnDisconnect );
+			this.Controls.Add( this.m_tboxStatus );
+			this.Controls.Add( this.m_BtnGetStatus );
+			this.Controls.Add( this.m_tboxHeight );
+			this.Controls.Add( this.m_tboxWidth );
 			this.Controls.Add( this.label2 );
 			this.Controls.Add( this.label1 );
-			this.Controls.Add( this.button14 );
-			this.Controls.Add( this.button13 );
-			this.Controls.Add( this.button12 );
-			this.Controls.Add( this.button11 );
-			this.Controls.Add( this.button10 );
-			this.Controls.Add( this.button9 );
-			this.Controls.Add( this.button8 );
-			this.Controls.Add( this.button7 );
-			this.Controls.Add( this.button6 );
-			this.Controls.Add( this.button5 );
-			this.Controls.Add( this.button4 );
-			this.Controls.Add( this.button3 );
-			this.Controls.Add( this.button2 );
-			this.Controls.Add( this.button1 );
+			this.Controls.Add( this.m_BtnGetSize );
+			this.Controls.Add( this.m_BtnText2 );
+			this.Controls.Add( this.m_BtnBackColor2 );
+			this.Controls.Add( this.m_BtnAdd2 );
+			this.Controls.Add( this.m_BtnAdd1 );
+			this.Controls.Add( this.m_BtnRemove2 );
+			this.Controls.Add( this.m_BtnRemoveAll );
+			this.Controls.Add( this.m_BtnRemove1 );
+			this.Controls.Add( this.m_BtnLocation1 );
+			this.Controls.Add( this.m_BtnSize1 );
+			this.Controls.Add( this.m_BtnTextColor1 );
+			this.Controls.Add( this.m_BtnText1 );
+			this.Controls.Add( this.m_BtnBackColor1 );
+			this.Controls.Add( this.m_BtnConnect );
 			this.Name = "Form1";
-			this.Text = "SyntecLayerClient";
+			this.Text = "Form1";
 			this.ResumeLayout( false );
 			this.PerformLayout();
 
@@ -347,32 +369,34 @@
 
 		#endregion
 
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.Button button6;
-		private System.Windows.Forms.Button button7;
-		private System.Windows.Forms.Button button8;
-		private System.Windows.Forms.Button button9;
-		private System.Windows.Forms.Button button10;
-		private System.Windows.Forms.Button button11;
-		private System.Windows.Forms.Button button12;
-		private System.Windows.Forms.Button button13;
-		private System.Windows.Forms.Button button14;
+		private System.Windows.Forms.Button m_BtnConnect;
+		private System.Windows.Forms.Button m_BtnBackColor1;
+		private System.Windows.Forms.Button m_BtnText1;
+		private System.Windows.Forms.Button m_BtnTextColor1;
+		private System.Windows.Forms.Button m_BtnSize1;
+		private System.Windows.Forms.Button m_BtnLocation1;
+		private System.Windows.Forms.Button m_BtnRemove1;
+		private System.Windows.Forms.Button m_BtnRemoveAll;
+		private System.Windows.Forms.Button m_BtnRemove2;
+		private System.Windows.Forms.Button m_BtnAdd1;
+		private System.Windows.Forms.Button m_BtnAdd2;
+		private System.Windows.Forms.Button m_BtnBackColor2;
+		private System.Windows.Forms.Button m_BtnText2;
+		private System.Windows.Forms.Button m_BtnGetSize;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.Button button15;
-		private System.Windows.Forms.TextBox textBox3;
-		private System.Windows.Forms.Button button16;
-		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.TextBox m_tboxWidth;
+		private System.Windows.Forms.TextBox m_tboxHeight;
+		private System.Windows.Forms.Button m_BtnGetStatus;
+		private System.Windows.Forms.TextBox m_tboxStatus;
+		private System.Windows.Forms.Button m_BtnDisconnect;
+		private System.Windows.Forms.TextBox m_tboxIPAddress;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button17;
-		private System.Windows.Forms.Button button18;
-		private System.Windows.Forms.Button button19;
+		private System.Windows.Forms.Button m_BtnTextColor2;
+		private System.Windows.Forms.Button m_BtnSize2;
+		private System.Windows.Forms.Button m_BtnLocation2;
+		private System.Windows.Forms.Button m_BtnGetLatError;
+		private System.Windows.Forms.TextBox m_tboxLastError;
 	}
 }
 
